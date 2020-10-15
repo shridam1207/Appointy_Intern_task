@@ -17,7 +17,7 @@ Open the main.html file in your browser to view the output.
  4. To make a get request run 'curl -i http://localhost:8081/articles' in terminal.
  5. To make a post request run 'curl -XPOST  http://localhost:8081/articles -d ' { 
     JSON_request_body
-} 
+} '
 6. To make a specific article id GET request run 'curl -i http://localhost:8081/articles/{id} in terminal.
 7. To make a word search request run 'curl -i http://localhost:8081/articles/search?q={param1}&..' in terminal
 8. I have not added the pagination and unit_testing as i failed to understand it. I may add it later.
