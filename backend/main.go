@@ -179,7 +179,7 @@ func searchQuery(w http.ResponseWriter, r *http.Request) {
 func main() {
 	Articles = []Article{
 		Article{Id: 1, Title: "Hello", SubTitle: "Article Description", Content: "Article Content", Creation_Timestamp: time.Now()},
-		 Article{Id: 2, Title: "Shridam 2", SubTitle: "Article Description", Content: "Article Content",Creation_Timestamp: time.Now()},
+		 //Article{Id: 2, Title: "Shridam 2", SubTitle: "Article Description", Content: "Article Content",Creation_Timestamp: time.Now()},
 	}
 	
 	handleRequests()
